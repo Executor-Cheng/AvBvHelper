@@ -14,7 +14,6 @@ namespace BilibiliUtility
 
         public static unsafe string Av2Bv(long av)
         {
-            new Span<byte>().IndexOf<byte>(123);
             fixed (byte* table = Table)
             {
                 byte* result = stackalloc byte[12] { 66, 86, 49, 0, 0, 52, 0, 49, 0, 55, 0, 0 };
