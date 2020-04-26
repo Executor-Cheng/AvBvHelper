@@ -25,7 +25,7 @@ namespace BilibiliUtility
                 result[8] = table[av / 195112 % 58];
                 result[4] = table[av / 11316496 % 58];
                 result[6] = table[av / 656356768 % 58];
-                return new string((sbyte*)result);
+                return new string((sbyte*)result, 0, 12);
             }
         }
 
