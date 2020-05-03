@@ -2,7 +2,7 @@
 
 char* Av2Bv(long long av)
 {
-	char* result = (char*)malloc(13);
+    char* result = (char*)malloc(13);
     if (result == NULL)
     {
         return NULL;
@@ -33,5 +33,5 @@ int Bv2Av(const char* bv)
     sum += (long long)(strchr(Table, bv[8]) - Table) * 195112;
     sum += (long long)(strchr(Table, bv[4]) - Table) * 11316496;
     sum += (long long)(strchr(Table, bv[6]) - Table) * 656356768;
-	return (int)((sum - Add) ^ Xor);
+    return (int)((sum - Add) ^ Xor);
 }
