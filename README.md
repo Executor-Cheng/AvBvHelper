@@ -7,7 +7,6 @@ Intel Core i7-8700K CPU 4.29GHz (Coffee Lake), 1 CPU, 12 logical and 6 physical 
   [Host]     : .NET Core 5.0.0 (CoreCLR 5.0.20.45114, CoreFX 5.0.20.45114), X64 RyuJIT
   DefaultJob : .NET Core 5.0.0 (CoreCLR 5.0.20.45114, CoreFX 5.0.20.45114), X64 RyuJIT
 
-```
 | Method |        av |           bv |     Mean |    Error |   StdDev |
 |------- |---------- |------------- |---------:|---------:|---------:|
 |  **Av2Bv** | **582921863** |            **?** | **24.71 ns** | **0.547 ns** | **0.608 ns** |
